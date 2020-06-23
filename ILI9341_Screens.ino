@@ -42,8 +42,7 @@ Notes
 #define PIN_CS 10
 
 
-// note remove 240, 320 as I've customized my lib to accept a screen size
-ILI9341_t3 Display = ILI9341_t3(PIN_CS, PIN_DC, 240, 320, PIN_RST);
+ILI9341_t3 Display = ILI9341_t3(PIN_CS, PIN_DC, PIN_RST);
 
 // Rounded rectangles will be turned into Adafruit buttons
 // add code for touch screen processing
