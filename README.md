@@ -5,7 +5,7 @@ This utility will convert PowerPoint slide graphics to code that can be compiled
 <br>Enable macros
 <br>File|Options, Trust Center -> Trust Center Settings, Enable “Enable all macros…
 <br>Enable Developer toolbar: RMB on toolbar Select customize the ribbon, enable Developer Toolbar from right selection group
-<br>Select Developer Tab, Macros, select BuildINO and click Run 
+<br>Select Developer Tab, Macros, select BuildINO and click Run. Or put PowerPoint into presentation mode and click the Generate .INO button.
 
 The resulting code is for a display with pixel size of 320 x 240. Do not adjust slide size, the odd size is intended to make font sizes realistic in the INO. A different PowerPoint utility is available for 480 x 320 size displays.
 
@@ -28,6 +28,9 @@ Highlights
 <li>char button text created if buttons are created</li>
 <li>Code generated to create Button objects and initialization</li>
 <br>
+
+
+Here are examples of generated code (images on the left), and the origianl slide created in PowerPoint (images on the right). These images will help indicated what is supported and tips on usage. You may delete all slides and create your own, but DO NOT delete slide 1. Keep this first slide for instructions and the "create" button. The code is hard coded to start at slide 2.
 
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_1.jpg)
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_1p.JPG)
