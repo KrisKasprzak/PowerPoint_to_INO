@@ -4,7 +4,8 @@ Under construction, come back soon
 
 <br>
 <br>
-Image from automatic cod                    Original PowerPoint slide
+Image from automatic code                    Original PowerPoint slide
+<br>
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_1.jpg)
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_1p.JPG)
 <br>
