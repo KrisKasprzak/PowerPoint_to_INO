@@ -1,7 +1,7 @@
 <b><h2><center>Code Generator for converting PowerPoint slides to .INO coder</center></h1></b>
 This utility will convert PowerPoint slide graphics to code that can be compiled and uploaded to common MCU's such as Teensy and ESP-32's. This code generator is written in VBA and embedded in PowerPoint as a macro.
 
-<b>Usage</b>
+<b><h3>Usage</b></h3>
 <br>Enable macros
 <br>File|Options, Trust Center -> Trust Center Settings, Enable “Enable all macros…
 <br>Enable Developer toolbar: RMB on toolbar Select customize the ribbon, enable Developer Toolbar from right selection group
@@ -9,7 +9,7 @@ This utility will convert PowerPoint slide graphics to code that can be compiled
 
 The resulting code is for a display with pixel size of 320 x 240. Do not adjust slide size, the odd size is intended to make font sizes realistic in the INO. A different PowerPoint utility is available for 480 x 320 size displays.
 
-Highlights
+<b><h3>Highlights</b></h3>
 <li>Support for display library ILI9341_t3</li>
 <li>Support for display library xxx</li>
 <li>Support for display library Adafruit_ILI9341</li>
@@ -29,7 +29,7 @@ Highlights
 <li>Code generated to create Button objects and initialization</li>
 <br>
 
-
+<b><h3>Example screen shots</b></h3>
 Here are examples of generated code (images on the left), and the origianl slide created in PowerPoint (images on the right). These images will help indicated what is supported and tips on usage. You may delete all slides and create your own, but DO NOT delete slide 1. Keep this first slide for instructions and the "create" button. The code is hard coded to start at slide 2. The code generator will do the best job possible in creating .ino graphics to mimic PowerPoint objects, however some parameters for PowerPoint objects are simply not exposed through the API, margins and radius values for rectangles for example. Below are some tips in how to get the most accurate rendition.
 
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_1.jpg)
