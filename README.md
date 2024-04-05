@@ -1,5 +1,6 @@
 <b><h2><center>Code Generator for converting PowerPoint slides to .INO coder</center></h1></b>
 
+<br>
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_1.jpg)
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_1p.JPG)
 <br>
