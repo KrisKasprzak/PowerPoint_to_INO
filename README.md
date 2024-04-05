@@ -1,6 +1,16 @@
 <b><h2><center>Code Generator for converting PowerPoint slides to .INO coder</center></h1></b>
 This utility will convert PowerPoint slide graphics to code that can be compiled and uploaded to common MCU's such as Teensy and ESP-32's. This code generator is written in VBA and embedded in PowerPoint as a macro.
 
+<b><h3>Revision</b></h3>
+<li>v1.0 Kasprzak ? Initial code</li>
+<li>v2.0 Kasprzak 4/4/2024 Support for fonts, colors, variables, buttons, local and global definitions, more</li>
+
+<b><h3>Known issues</b></h3>
+<li>Border color and fill color for triangles reversed</li>
+<li>Right triangles amy not work</li>
+<li>Horizontal gradients where w > h not working--bug in display lib?</li>
+<li>Tested only with Teensy and ILI9341_t3 and ILI9488_t3</li>
+
 <b><h3>Usage</b></h3>
 <br>Enable macros
 <br>File|Options, Trust Center -> Trust Center Settings, Enable “Enable all macros…
