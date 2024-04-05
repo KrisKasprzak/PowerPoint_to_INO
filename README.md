@@ -9,15 +9,15 @@ This utility will convert PowerPoint slide graphics to code that can be compiled
 <li>Border color and fill color for triangles reversed</li>
 <li>Right triangles amy not work</li>
 <li>Horizontal gradients where w > h not working--bug in display lib?</li>
-<li>Tested only with Teensy and ILI9341_t3 and ILI9488_t3</li>
+<li>Tested only with Teensy and ILI9341_t3</li>
+<li>A code generator for larger 480 x 320 displays is coming soon...</li>
 
 <b><h3>Usage</b></h3>
-<br>Enable macros
-<br>File|Options, Trust Center -> Trust Center Settings, Enable “Enable all macros…
+<br>Enable macros: File | Options, Trust Center the navigate to Trust Center Settings, Enable “Enable all macros"
 <br>Enable Developer toolbar: RMB on toolbar Select customize the ribbon, enable Developer Toolbar from right selection group
-<br>Select Developer Tab, Macros, select BuildINO and click Run. Or put PowerPoint into presentation mode and click the Generate .INO button.
+<br>Put PowerPoint into presentation mode and click the Generate .INO button or select Developer Tab, Macros, select BuildINO and click Run. 
 
-The resulting code is for a display with pixel size of 320 x 240. Do not adjust slide size, the odd size is intended to make font sizes realistic in the INO. A different PowerPoint utility is available for 480 x 320 size displays.
+The resulting code is for a display with pixel size of 320 x 240. Do not adjust PowerPoint slide size, the odd size is intended to make PowerPoint font sizes realistic in the INO (a 12 point font in the .ino code will look similar to a 12 point font in PowerPoint). A different PowerPoint utility (coming soon) is available for 480 x 320 size displays.
 
 <b><h3>Highlights</b></h3>
 <li>Support for display library ILI9341_t3</li>
