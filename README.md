@@ -1,8 +1,8 @@
 <b><h2><center>Code Generator for converting PowerPoint slides to .INO coder</center></h1></b>
 This utility will convert PowerPoint slide graphics to code that can be compiled and uploaded to common MCU's such as Teensy and ESP-32's.
 
-Usage
-Enable macros
+<b>Usage</b>
+<br>Enable macros
 File|Options, Trust Center -> Trust Center Settings, Enable “Enable all macros…
 Running
 Enable Developer toolbar: RMB on toolbar Select customize the ribbon, enable Developer Toolbar from right selection group
