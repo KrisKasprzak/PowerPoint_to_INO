@@ -1,6 +1,18 @@
 <b><h2><center>Code Generator for converting PowerPoint slides to .INO coder</center></h1></b>
 This utility will convert PowerPoint slide graphics to code that can be compiled and uploaded to common MCU's such as Teensy and ESP-32's.
 
+Usage
+Enable macros
+File|Options, Trust Center -> Trust Center Settings, Enable “Enable all macros…
+Running
+Enable Developer toolbar: RMB on toolbar Select customize the ribbon, enable Developer Toolbar from right selection group
+Select Developer Tab, Macros, select BuildINO and click Run 
+Created file
+PowerPoint Path\ILI9341_Screens.ino
+Scaling
+Code is for 320 x 240, different utility for 480 x 320
+Do not adjust slide size, the odd size is intended to make font sizes realistic in the INO
+
 Highlights
 <li>Support for display library ILI9341_t3</li>
 <li>Support for display library xxx</li>
