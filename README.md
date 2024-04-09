@@ -43,7 +43,7 @@ The resulting code is for a display with pixel size of 320 x 240. Do not adjust 
 
 
 <b><h3>Supported objects</b></h3>
-To give examples of what objects and parameters are supported, here are examples of generated code (images on the left), and the origianl slide created in PowerPoint (images on the right). These images will help indicated what is supported and tips on usage. You may delete all slides and create your own, but DO NOT delete slide number 1. Keep this first slide for instructions and the "create" button also the code is hard coded to start at slide number 2. The code generator will do the best job possible in creating .ino graphics to mimic PowerPoint objects, however some parameters for PowerPoint objects are simply not exposed through the API, margins and radius values for rectangles for example. Below are some tips in how to get the most accurate rendition.
+To give examples of what objects and parameters are supported, here are examples of generated code (images on the left), and the origianl slide created in PowerPoint (images on the right). These images will help indicated what is supported and tips on usage. You may delete all slides and create your own, but DO NOT delete slide number 1. Keep this first slide for instructions and the "create" button also the code is hard coded to start at slide number 2. The code generator will do the best job possible in creating .ino graphics to mimic PowerPoint objects, however some parameters for PowerPoint objects are simply not exposed through the API, margins and radius values for rectangles for example. Below are some tips in how to get the most accurate rendition. All screens were first created in PowerPoint the converted to .ino code using this utility. Zero code edits were made to the results.
 <br>
 
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_2.jpg)
@@ -75,7 +75,7 @@ To give examples of what objects and parameters are supported, here are examples
 <br>
 <br>
 <b><h3>Example screen shots</b></h3>
-Here are examples of generated code (images on the left), and the origianl slide created in PowerPoint (images on the right) of some use cases. Create monitoring screens, warning screens, graphical view of an irrigation system, reporting systems, and more...
+Here are examples of generated code (images on the left), and the origianl slide created in PowerPoint (images on the right) of some use cases. Create monitoring screens, warning screens, graphical view of an irrigation system, reporting systems, and more...All screens were first created in PowerPoint the converted to .ino code using this utility. Zero code edits were made to the results.
 <br>
 <br>
 
