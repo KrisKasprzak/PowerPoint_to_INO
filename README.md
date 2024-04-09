@@ -2,8 +2,8 @@
 This utility will convert PowerPoint slide graphics to code that can be compiled and uploaded to common MCU's such as Teensy and ESP-32's. This code generator is written in VBA and embedded in PowerPoint as a macro.
 
 <b><h3>Revision</b></h3>
-<li>v1.0 Kasprzak ? Initial code</li>
-<li>v2.0 Kasprzak 4/4/2024 Support for fonts, colors, variables, buttons, local and global definitions, more</li>
+<li>v1.0 Kasprzak 06/06/2020 Initial code</li>
+<li>v2.0 Kasprzak 04/04/2024 Support for fonts, colors, variables, buttons, local and global definitions, more</li>
 
 <b><h3>Known issues</b></h3>
 <li>Horizontal gradients where w > h not working--bug in display lib?</li>
