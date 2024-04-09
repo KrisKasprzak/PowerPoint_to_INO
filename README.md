@@ -41,10 +41,10 @@ The resulting code is for a display with pixel size of 320 x 240. Do not adjust 
 <li>Code generated to create Button objects and initialization</li>
 <br>
 
-<b><h3>Example screen shots</b></h3>
-Here are examples of generated code (images on the left), and the origianl slide created in PowerPoint (images on the right). These images will help indicated what is supported and tips on usage. You may delete all slides and create your own, but DO NOT delete slide number 1. Keep this first slide for instructions and the "create" button also the code is hard coded to start at slide number 2. The code generator will do the best job possible in creating .ino graphics to mimic PowerPoint objects, however some parameters for PowerPoint objects are simply not exposed through the API, margins and radius values for rectangles for example. Below are some tips in how to get the most accurate rendition.
+
 
 <br>
+
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_2.jpg)
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_2p.JPG)
 <br>
@@ -75,6 +75,9 @@ Here are examples of generated code (images on the left), and the origianl slide
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_11.jpg)
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_11p.JPG)
 <br>
+<b><h3>Example screen shots</b></h3>
+Here are examples of generated code (images on the left), and the origianl slide created in PowerPoint (images on the right). These images will help indicated what is supported and tips on usage. You may delete all slides and create your own, but DO NOT delete slide number 1. Keep this first slide for instructions and the "create" button also the code is hard coded to start at slide number 2. The code generator will do the best job possible in creating .ino graphics to mimic PowerPoint objects, however some parameters for PowerPoint objects are simply not exposed through the API, margins and radius values for rectangles for example. Below are some tips in how to get the most accurate rendition.
+
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_12.jpg)
 ![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Screen_12p.JPG)
 <br>
