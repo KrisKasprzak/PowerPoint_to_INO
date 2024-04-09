@@ -1,5 +1,5 @@
-<b><h2><center>Code Generator for converting PowerPoint slides to .INO coder</center></h1></b>
-This utility will convert PowerPoint slide graphics to code that can be compiled and uploaded to common MCU's such as Teensy and ESP-32's. This code generator is written in VBA and embedded in PowerPoint as a macro.
+<b><h2><center>Code Generator for converting PowerPoint slides to .ino code</center></h1></b>
+Speed creating graphical screens for your MCU projects by first creating screens in PowerPoint. This utility will convert PowerPoint slide graphics to code that can be compiled and uploaded to common MCU's such as Teensy and ESP-32's. This code generator is written in VBA and embedded in PowerPoint as a macro. Most common PowerPoint objects are supported. This utility is great for creating screens for monitoring systems, control systems, reporting systems, and more. See the examples below.
 
 <b><h3>Revision</b></h3>
 <li>v1.0 Kasprzak 06/06/2020 Initial code</li>
