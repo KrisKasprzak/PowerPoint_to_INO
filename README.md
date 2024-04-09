@@ -6,10 +6,10 @@ This utility will convert PowerPoint slide graphics to code that can be compiled
 <li>v2.0 Kasprzak 4/4/2024 Support for fonts, colors, variables, buttons, local and global definitions, more</li>
 
 <b><h3>Known issues</b></h3>
-<li>Border color and fill color for triangles reversed</li>
-<li>Right triangles amy not work</li>
 <li>Horizontal gradients where w > h not working--bug in display lib?</li>
-<li>Tested only with Teensy and ILI9341_t3</li>
+<li>Tested with Teensy and ILI9341_t3</li>
+<li>Tested with ESP32 and Adafruit_ILI9341</li>
+<li>Teensy Arial fonts match the PowerPoint very well, Adafruit FreeSans--not as good.</li>
 <li>A code generator for larger 480 x 320 displays is coming soon...</li>
 
 <b><h3>Usage</b></h3>
@@ -21,8 +21,6 @@ The resulting code is for a display with pixel size of 320 x 240. Do not adjust 
 
 <b><h3>Highlights</b></h3>
 <li>Support for display library ILI9341_t3</li>
-<li>Support for display library xxx</li>
-<li>Support for display library Adafruit_ILI9341</li>
 <li>Support for display library Adafruit_ILI9341</li>
 <li>Font support for Teensy Arial fonts in many sizes</li>
 <li>Font mapping for Arial to basic Adafruit fonts in 4 sizes</li>
@@ -35,6 +33,10 @@ The resulting code is for a display with pixel size of 320 x 240. Do not adjust 
 <li>Font list created and listed in #defines</li>
 <li>Color list created and listed in #defines</li>
 <li>Optional variables created for int and float</li>
+<li>ILI9341_t1 (Teensy) will specify fonts based on PowerPoint fonts</li>
+<li>Adafruit_ILI9341 (ESP32) can specify either fonts based on PowerPoint fonts or map to closes size delivered with the Adafruit GFX library</li>
+<li>In either driver case, if PowerPoint fonts do not match delivered display fonts, simply #include the font and change the #defines</li>
+<li>Option to draw place holder graphics (square with x) for unsupported PowerPoint Objects</li>
 <li>char button text created if buttons are created</li>
 <li>Code generated to create Button objects and initialization</li>
 <br>
