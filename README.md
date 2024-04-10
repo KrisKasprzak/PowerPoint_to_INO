@@ -47,8 +47,8 @@ The resulting code is for a display with pixel size of 320 x 240. Do not adjust 
 <b><h3>User Interface</b></h3>
 <br>
 
-![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/MainScreen.jpg)
-![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO_320x240/master/Images/Settings.JPG)
+![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO/master/Images/MainScreen.jpg)
+![header image](https://raw.github.com/KrisKasprzak/PowerPoint_to_INO/master/Images/Settings.JPG)
 <br>
 
 <b><h3>Supported objects</b></h3>
