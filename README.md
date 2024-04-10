@@ -27,7 +27,7 @@ The resulting code is for a display with pixel size of 320 x 240. Do not adjust 
 <li>Option to create Adafruit or custom library buttons from Rectangles with text</li>
 <li>Option to create button processing code for Touchscreens</li>
 <li>Option to include XPT2046 touchscreen driver
-<li>Default orientation is Landscape, but Presentation can be change to portriat mode--a user setting will allow switching screen orientation</li>
+<li>Default orientation is Landscape, but Presentation can be change to portrait mode--a user setting will allow switching screen orientation</li>
 <li>Option to create variables from numbers in text boxes
 <li>Option to create button and variables global or in screen functions
 <li>Font list created and listed in #defines</li>
