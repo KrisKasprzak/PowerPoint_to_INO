@@ -9,7 +9,7 @@ Speed creating graphical screens for your MCU projects by first creating screens
 <li>Tested with Teensy 3.2 and ILI9341_t3 (320 x 240)</li>
 <li>Tested with ESP32 and Adafruit_ILI9341 (320 x 240)</li>
 <li>Tested with Teensy 3.2 and ILI9488_t3 (480 x 320)</li>
-<li>Support for Adafruit_HX8357 is coming soon...</li>
+
 
 <b><h3>Revision</b></h3>
 <li>v1.0 Kasprzak 06/06/2020 Initial code</li>
