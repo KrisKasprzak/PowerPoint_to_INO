@@ -1,6 +1,9 @@
 <b><h2><center>Code Generator for Converting PowerPoint Slides to .ino </center></h1></b>
 Speed creating graphical screens for your MCU projects by first creating screens in PowerPoint the automaticall generate the .ino . This utility will convert PowerPoint slide graphics to code that can be compiled and uploaded to common MCU's such as Teensy and ESP-32's and for 320 x 240 and 480 x 320 displays. This code generator is written in VBA and embedded in PowerPoint as a macro. The most common PowerPoint objects are supported making this utility great for creating screens for monitoring systems, control systems, reporting systems, and more. See the examples below.
 
+
+[![Github All Releases](https://img.shields.io/github/downloadsKrisKasprzak/PowerPoint_to_INO/total.svg)]()
+
 <b><h3>Tested with</b></h3>
 <li>Tested with Teensy 3.2 and ILI9341_t3 (320 x 240)</li>
 <li>Tested with ESP32 and Adafruit_ILI9341 (320 x 240)</li>
